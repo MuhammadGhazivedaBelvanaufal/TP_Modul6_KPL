@@ -1,15 +1,37 @@
-﻿internal class Program
+﻿using System;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
         Console.Write("Masukkan judul video: ");
         string judulVideo = Console.ReadLine();
 
-        SayaTubeVideo video = new SayaTubeVideo(judulVideo);
+        SayaTubeVideo video;
+        try
+        {
+            video = new SayaTubeVideo(judulVideo);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            return;
+        }
+
         video.PrintVideoDetails();
 
-        Console.Write("Masukkan jumlah penambahan play count: ");
-        int tambahPlayCount = int.Parse(Console.ReadLine());
+        bool isValidInput;
+        int tambahPlayCount;
+        do
+        {
+            Console.Write("Masukkan jumlah penambahan play count (maksimal 10.000.000): ");
+            isValidInput = int.TryParse(Console.ReadLine(), out tambahPlayCount) && tambahPlayCount <= 10000000;
+
+            if (!isValidInput)
+            {
+                Console.WriteLine("Input jumlah penambahan play count tidak valid!");
+            }
+        } while (!isValidInput);
 
         try
         {
@@ -22,7 +44,6 @@
 
         video.PrintVideoDetails();
     }
-
     public class SayaTubeVideo
     {
         public int id;
@@ -45,8 +66,17 @@
         {
             if (count > 10000000)
                 throw new Exception("Penambahan play count melebihi batas");
-
-            playCount += count;
+            try
+            {
+                checked
+                {
+                    playCount += count;
+                }
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("Play count melebihi batas tertinggi integer");
+            }
         }
         public void PrintVideoDetails()
         {
