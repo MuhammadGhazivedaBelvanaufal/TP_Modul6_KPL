@@ -1,0 +1,15 @@
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.AssemblyInfoInputs.cache
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.AssemblyInfo.cs
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.csproj.CoreCompileInputs.cache
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.sourcelink.json
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\bin\Debug\net8.0\TpModul6_1302220011.exe
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\bin\Debug\net8.0\TpModul6_1302220011.deps.json
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\bin\Debug\net8.0\TpModul6_1302220011.runtimeconfig.json
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\bin\Debug\net8.0\TpModul6_1302220011.dll
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\bin\Debug\net8.0\TpModul6_1302220011.pdb
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.dll
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\refint\TpModul6_1302220011.dll
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.pdb
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\TpModul6_1302220011.genruntimeconfig.cache
+C:\Users\belvanaufal\source\repos\TpModul6_1302220011\TpModul6_1302220011\obj\Debug\net8.0\ref\TpModul6_1302220011.dll
